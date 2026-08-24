@@ -12,12 +12,15 @@
 <meta property="og:title" content="The Greek Spot | Greek Bakery &amp; Cafe, Middlesbrough">
 <meta property="og:description" content="Authentic Greek pastries and coffee by day, gyros delivered 5 to 9pm on Uber Eats. Family run on Dundas Street, Middlesbrough.">
 <meta property="og:url" content="https://thegreekspot.co.uk/">
-<meta property="og:image" content="https://thegreekspot.co.uk/images/hero-bougatsa-freddo.jpg">
+<meta property="og:image" content="https://thegreekspot.co.uk/images/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Greek Spot, authentic Greek bakery and cafe in Middlesbrough">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The Greek Spot | Greek Bakery &amp; Cafe, Middlesbrough">
 <meta name="twitter:description" content="Authentic Greek pastries and coffee by day, gyros delivered 5 to 9pm on Uber Eats. Family run in Middlesbrough.">
-<meta name="twitter:image" content="https://thegreekspot.co.uk/images/hero-bougatsa-freddo.jpg">
+<meta name="twitter:image" content="https://thegreekspot.co.uk/images/og-cover.jpg">
 <link rel="icon" type="image/jpeg" href="images/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,11 +28,20 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Bakery",
+  "@type": ["Bakery","CafeOrCoffeeShop"],
+  "@id": "https://thegreekspot.co.uk/#business",
   "name": "The Greek Spot",
+  "url": "https://thegreekspot.co.uk/",
+  "description": "Family-run Greek bakery and cafe on Dundas Street, Middlesbrough. Handmade phyllo pastries, syrup sweets and Greek-style coffee by day, with gyros delivered in the evening on Uber Eats.",
   "servesCuisine": "Greek",
   "priceRange": "£",
   "telephone": "+441642500844",
+  "image": [
+    "https://thegreekspot.co.uk/images/hero-bougatsa-freddo.jpg",
+    "https://thegreekspot.co.uk/images/aug-gyros-hero.jpg",
+    "https://thegreekspot.co.uk/images/shopfront.jpg"
+  ],
+  "logo": "https://thegreekspot.co.uk/images/logo.jpg",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "41 Dundas Street",
@@ -37,6 +49,10 @@
     "postalCode": "TS1 1HR",
     "addressCountry": "GB"
   },
+  "geo": { "@type": "GeoCoordinates", "latitude": 54.5761, "longitude": -1.2351 },
+  "areaServed": { "@type": "City", "name": "Middlesbrough" },
+  "hasMenu": "https://thegreekspot.co.uk/#menu",
+  "acceptsReservations": false,
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "16:00" }
   ],
@@ -44,6 +60,14 @@
     "https://www.instagram.com/thegreekspotmiddlesbrough/",
     "https://www.tiktok.com/@thegreekspot_"
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "The Greek Spot",
+  "url": "https://thegreekspot.co.uk/"
 }
 </script>
 <style>
